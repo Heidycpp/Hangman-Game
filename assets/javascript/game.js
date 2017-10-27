@@ -1,5 +1,3 @@
-prompt('Press any key to get started!');
-
 function horrorFilmsHangman(){
 	var words = [
 "alien", 
