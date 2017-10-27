@@ -1,0 +1,58 @@
+body{
+	font-size: 22px;
+	background-image: url("https://unwinnable.com/wp-content/uploads/2015/02/Unseen.jpg");
+}
+
+br.brClear {
+	clear: both;
+}
+
+header {
+	margin-bottom: 60px;
+
+} 
+header img{
+	width: 250px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+header h1 {
+	font-family: 'Nosifer', cursive;
+	font-size: 60px;
+	color: red;
+}
+header h2 {
+	font-family: 'Nosifer', cursive;
+	color: red;
+}
+section h2 {
+	font-family: 'Nosifer', cursive;
+	color: red;
+}
+
+.game p{
+	padding: 12px;
+	font-size: 20px;
+	font-family: 'Creepster', cursive;
+	color: red;
+}
+
+#gameDisplay, #lives, #guessed, #lastGuess, #gameStatus, #letterCheck {
+	font-family: 'Creepster', cursive;
+	color: red;
+	text-align: center;
+	font-size: 30px;
+}
+
+#gameDisplay{
+	margin: 24px 0;
+	font-size: 30px;
+	border: 2px dashed #ccc;
+	border-radius: 6px;
+	padding:20px;
+	letter-spacing: 30px;
+	font-family: 'Creepster', cursive;
+	color: red;
+}
